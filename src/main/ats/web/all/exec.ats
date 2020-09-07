@@ -1,0 +1,16 @@
+[ats-header]
+
+author -> LAPTOP-LT8QHS42\Agilitest
+created -> 2020-09-07 at 17:09:07
+
+[ats-variables]
+
+var -> browser -> chrome$var(var_name)
+
+[ats-actions]
+
+subscript -> web.all.domains [chrome]
+subscript -> web.all.domains [firefox]
+subscript -> web.all.domains [ie]
+subscript -> web.all.domains [msedge]
+subscript -> web.all.domains [opera]
