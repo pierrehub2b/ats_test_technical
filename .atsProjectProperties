@@ -1,8 +1,8 @@
 <atsProject>
-  <domain>com.functional</domain>
-  <name>ats-project-technical</name>
+  <domain>com.caipture</domain>
+  <name>technical</name>
   <version>0.0.1</version>
-  <description>ATS project created with Agilitest Editor</description>
+  <description>ATS project for technical tests</description>
   <useMaven>false</useMaven>
   <autoUpdateAts>true</autoUpdateAts>
   <groups>
