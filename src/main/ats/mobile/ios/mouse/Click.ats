@@ -1,0 +1,15 @@
+[ats-header]
+
+author -> LAPTOP-0R3VAV1N\Anthony
+created -> 2020-09-07 at 15:35:06
+
+[ats-variables]
+
+
+[ats-actions]
+
+comment -> script -> <i>Récupération d'élément par attribut et clic</i>
+channel-start -> Calculator -> mobile://192.168.1.41:8080/com.android.calculator2
+click -> Button [text = 9, viewId = digit_9]
+check-property -> text = 9 -> EditText [viewId = result]
+channel-close -> Calculator

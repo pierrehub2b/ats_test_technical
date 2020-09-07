@@ -1,0 +1,13 @@
+[ats-header]
+
+author -> LAPTOP-0R3VAV1N\Anthony
+created -> 2020-09-07 at 14:40:45
+
+[ats-variables]
+
+
+[ats-actions]
+
+comment -> script -> <i></i>
+channel-start -> newChannel -> chrome
+channel-close -> newChannel
