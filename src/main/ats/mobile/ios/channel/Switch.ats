@@ -7,3 +7,10 @@ created -> 2020-09-07 at 15:33:23
 
 
 [ats-actions]
+
+comment -> script -> <i>Chamgement du canal en cours</i>
+channel-start -> Calculator -> mobile://192.168.1.41:8080/com.android.calculator2
+channel-start -> Chrome -> mobile://192.168.1.41:8080/com.android.chrome
+channel-switch -> Calculator
+channel-close -> Chrome
+channel-close -> Calculator

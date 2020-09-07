@@ -7,3 +7,7 @@ created -> 2020-09-07 at 15:32:51
 
 
 [ats-actions]
+
+comment -> script -> <i>Ouverture et fermeture de canal</i>
+channel-start -> Chrome -> mobile://192.168.1.41:8080/com.android.chrome
+channel-close -> Chrome
