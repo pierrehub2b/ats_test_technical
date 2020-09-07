@@ -5,12 +5,12 @@ created -> 2020-09-07 at 17:09:07
 
 [ats-variables]
 
-var -> browser -> chrome$var(var_name)
+var -> url -> http://www.agilitest.com/fichiers/test.html$var(var_name)
 
 [ats-actions]
 
-subscript -> web.all.domains [chrome]
-subscript -> web.all.domains [firefox]
-subscript -> web.all.domains [ie]
-subscript -> web.all.domains [msedge]
-subscript -> web.all.domains [opera]
+subscript -> $var(var_name)web.all.domains [chrome,$var(url)]
+subscript -> web.all.domains [firefox,$var(url)]
+subscript -> web.all.domains [ie,$var(url)]
+subscript -> web.all.domains [msedge,$var(url)]
+subscript -> web.all.domains [opera,$var(url)]

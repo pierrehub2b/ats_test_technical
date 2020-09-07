@@ -7,3 +7,8 @@ created -> 2020-09-07 at 16:43:31
 
 
 [ats-actions]
+
+channel-start -> newChannel -> $param(0,chrome)
+goto-url -> $param(1,http://www.agilitest.com/fichiers/test.html)
+check-count -> 1 -> IMG [alt = Agilitest]
+channel-close -> newChannel
