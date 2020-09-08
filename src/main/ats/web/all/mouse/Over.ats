@@ -7,3 +7,9 @@ created -> 2020-09-07 at 16:45:20
 
 
 [ats-actions]
+
+channel-start -> mouseOver -> $param(0,chrome)
+goto-url -> $param(1,http://www.agilitest.com/fichiers/test.html)
+over -> SPAN [class = mousearea, text = Mouse Enter Area]
+check-count -> 1 -> SPAN [id = onmouseenter, text = OK]
+channel-close -> mouseOver

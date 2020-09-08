@@ -7,3 +7,12 @@ created -> 2020-09-07 at 17:05:57
 
 
 [ats-actions]
+
+channel-start -> mouseDragDrop -> $param(0,chrome)
+goto-url -> $param(3,https://www.w3schools.com/html/html5_draganddrop.asp)
+click [nofail] -> DIV [text = Accepter tout et consulter le site]
+drag -> IMG [alt = W3Schools]
+over -> DIV [id = div2]
+drop -> DIV [id = div2]
+check-count -> 1 -> IMG [alt = W3Schools] -> DIV [id = div2]
+channel-close -> mouseDragDrop

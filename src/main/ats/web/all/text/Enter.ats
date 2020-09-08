@@ -7,3 +7,13 @@ created -> 2020-09-07 at 17:07:02
 
 
 [ats-actions]
+
+channel-start -> textEnter -> $param(0,chrome)
+goto-url -> $param(1,http://www.agilitest.com/fichiers/test.html)
+keyboard -> john -> INPUT [name = fname]
+property -> value => fName -> INPUT [name = fname]
+check-value -> $var(fName) =~ ^(?!\s*$).+
+keyboard -> doe$key(ENTER) -> INPUT [name = lname]
+property -> value => fName -> INPUT [name = fname]
+check-value -> $var(fName) = 
+channel-close -> textEnter

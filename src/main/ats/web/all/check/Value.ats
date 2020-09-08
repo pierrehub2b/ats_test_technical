@@ -7,3 +7,9 @@ created -> 2020-09-07 at 16:43:26
 
 
 [ats-actions]
+
+channel-start -> valueCheck -> $param(0,chrome)
+goto-url -> $param(1,http://www.agilitest.com/fichiers/test.html)
+property -> text => propertyVar -> BUTTON [onclick = myClickFunction()]
+check-value -> $var(propertyVar) = Click Button
+channel-close -> valueCheck

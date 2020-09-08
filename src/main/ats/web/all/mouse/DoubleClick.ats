@@ -7,3 +7,9 @@ created -> 2020-09-07 at 17:03:16
 
 
 [ats-actions]
+
+channel-start -> mouseDoubleClick -> $param(0,chrome)
+goto-url -> $param(1,http://www.agilitest.com/fichiers/test.html)
+click-double -> BUTTON [text = Double Click Button]
+check-count -> 1 -> SPAN [id = doubleclickbutton, text = OK]
+channel-close -> mouseDoubleClick

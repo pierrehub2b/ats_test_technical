@@ -7,3 +7,7 @@ created -> 2020-09-07 at 16:44:26
 
 
 [ats-actions]
+
+channel-start -> windowChangeLocation -> $param(0,chrome)
+window-resize -> x = 200, y = 200
+channel-close -> windowChangeLocation

@@ -7,3 +7,10 @@ created -> 2020-09-07 at 17:06:02
 
 
 [ats-actions]
+
+channel-start -> mouseSwipe -> $param(0,chrome)
+goto-url -> https://demos.jquerymobile.com/1.4.5/swipe-page/newyork.html
+property -> data-next => next -> DIV [class =~ .*ui-page-active]
+swipe -> left = 300 -> DIV [class =~ .*ui-page-active]
+check-property -> id = $var(next) -> DIV [class =~ .*ui-page-active]
+channel-close -> mouseSwipe

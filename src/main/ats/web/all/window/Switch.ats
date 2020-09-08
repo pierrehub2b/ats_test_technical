@@ -7,3 +7,10 @@ created -> 2020-09-07 at 16:44:34
 
 
 [ats-actions]
+
+channel-start -> windowSwitch -> $param(0,chrome)
+window-switch -> 1
+scripting -> window.open()
+window-switch -> 0
+window-switch -> 1
+channel-close -> windowSwitch

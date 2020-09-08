@@ -7,3 +7,9 @@ created -> 2020-09-07 at 17:03:38
 
 
 [ats-actions]
+
+channel-start -> mouseScroll -> $param(0,chrome)
+goto-url -> $param(1,http://www.agilitest.com/fichiers/test.html)
+scroll -> 1000 -> BODY
+check-count -> 1 -> H1 [text = Select size 4 :]
+channel-close -> mouseScroll

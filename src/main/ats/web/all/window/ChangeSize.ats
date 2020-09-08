@@ -7,3 +7,7 @@ created -> 2020-09-07 at 16:44:00
 
 
 [ats-actions]
+
+channel-start -> windowChangeSize -> $param(0,chrome)
+window-resize -> width = 20, height = 20
+channel-close -> windowChangeSize

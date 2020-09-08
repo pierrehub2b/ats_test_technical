@@ -7,3 +7,9 @@ created -> 2020-09-07 at 16:44:13
 
 
 [ats-actions]
+
+channel-start -> windowChangeState -> $param(0,chrome)
+window-state -> reduce
+window-state -> restore
+//window-state -> close
+channel-close -> windowChangeState

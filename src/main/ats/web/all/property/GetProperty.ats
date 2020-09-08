@@ -7,3 +7,9 @@ created -> 2020-09-07 at 16:41:49
 
 
 [ats-actions]
+
+channel-start -> preopertyGet -> $param(0,chrome)
+goto-url -> $param(1,http://www.agilitest.com/fichiers/test.html)
+property -> text => property -> H1 [text = Calculatrice :]
+check-value -> $var(property) =~ ^(?!\s*$).+
+channel-close -> preopertyGet

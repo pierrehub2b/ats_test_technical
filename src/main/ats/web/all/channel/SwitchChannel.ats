@@ -9,7 +9,7 @@ created -> 2020-09-07 at 16:40:51
 [ats-actions]
 
 channel-start -> firstChannel -> $param(0,chrome)
-channel-start -> secondChannel -> $param(0,chrome)
+channel-start -> secondChannel -> $param(1,chrome)
 channel-switch -> firstChannel
 channel-switch -> secondChannel
 channel-close -> firstChannel

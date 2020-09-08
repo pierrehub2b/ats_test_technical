@@ -7,3 +7,9 @@ created -> 2020-09-07 at 17:08:31
 
 
 [ats-actions]
+
+channel-start -> otherSelect -> $param(0,chrome)
+goto-url -> $param(1,http://www.agilitest.com/fichiers/test.html)
+scroll -> 1000 -> BODY
+select -> index = 2 -> SELECT [@index = 1]
+channel-close -> otherSelect

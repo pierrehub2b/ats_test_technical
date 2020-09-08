@@ -7,3 +7,9 @@ created -> 2020-09-07 at 16:41:28
 
 
 [ats-actions]
+
+channel-start -> navigationGoTo -> $param(0,chrome)
+check-count -> 1 -> IMG [alt = ActionTestScript]
+goto-url -> $param(1,http://www.agilitest.com/fichiers/test.html)
+check-count -> 1 -> IMG [alt = Agilitest]
+channel-close -> navigationGoTo
