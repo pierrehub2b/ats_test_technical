@@ -30,7 +30,7 @@ public class GoToURL extends ActionTestScript{
 
 	/**
 	* Test Name : <b>web.all.navigation.GoToURL</b>
-	* Generated at : <b>8 sept. 2020 à 17:28:54</b>
+	* Generated at : <b>8 sept. 2020 à 17:56:43</b>
 	*/
 
 	public GoToURL(){super();}

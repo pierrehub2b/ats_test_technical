@@ -30,7 +30,7 @@ public class ChangeSize extends ActionTestScript{
 
 	/**
 	* Test Name : <b>web.all.window.ChangeSize</b>
-	* Generated at : <b>8 sept. 2020 à 17:28:54</b>
+	* Generated at : <b>8 sept. 2020 à 17:56:43</b>
 	*/
 
 	public ChangeSize(){super();}

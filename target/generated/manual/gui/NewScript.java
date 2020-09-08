@@ -30,7 +30,7 @@ public class NewScript extends ActionTestScript{
 
 	/**
 	* Test Name : <b>manual.gui.NewScript</b>
-	* Generated at : <b>8 sept. 2020 à 17:28:54</b>
+	* Generated at : <b>8 sept. 2020 à 17:56:43</b>
 	*/
 
 	public NewScript(){super();}
