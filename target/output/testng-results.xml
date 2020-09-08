@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[- Starting script (web.all.exec) -> {"suite":"web","xmlReport":true,"visualQuality":1,"parameters":[{"xml.report":"true"},{"ats.log.level":"error"},{"visual.report":"1"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.exec:0) -> {"called":"web.all.domains","iteration":"1/5","type":"dataFile","url":"C:\\Users\\Agilitest\\Documents\\GitHub\\ats_test_technical\\target\\classes\\assets\\WebParameters.csv","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"},{"p2":"msedge"},{"p3":"https://www.w3schools.com/html/html5_draganddrop.asp"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:0) -> {"called":"web.all.channel.StartChannel","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:1) -> {"called":"web.all.channel.SwitchChannel","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"msedge"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:2) -> {"called":"web.all.check.Occurence","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:3) -> {"called":"web.all.check.Property","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:4) -> {"called":"web.all.check.Value","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:7) -> {"called":"web.all.mouse.DragDrop","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:8) -> {"called":"web.all.mouse.LeftClick","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:9) -> {"called":"web.all.mouse.Over","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:10) -> {"called":"web.all.mouse.RightClick","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:11) -> {"called":"web.all.mouse.Scroll","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:12) -> {"called":"web.all.mouse.Swipe","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:13) -> {"called":"web.all.mouse.WheelClick","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:14) -> {"called":"web.all.navigation.GoToURL","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:15) -> {"called":"web.all.other.Scripting","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:16) -> {"called":"web.all.other.Select","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:17) -> {"called":"web.all.property.GetProperty","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:18) -> {"called":"web.all.text.Enter","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:19) -> {"called":"web.all.window.ChangeLocation","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:20) -> {"called":"web.all.window.ChangeSize","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:21) -> {"called":"web.all.window.ChangeState","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:22) -> {"called":"web.all.window.Switch","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.exec:0) -> {"called":"web.all.domains","iteration":"2/5","type":"dataFile","url":"C:\\Users\\Agilitest\\Documents\\GitHub\\ats_test_technical\\target\\classes\\assets\\WebParameters.csv","parameters":[{"p0":"msedge"},{"p1":"http://www.agilitest.com/fichiers/test.html"},{"p2":"opera"},{"p3":"https://www.w3schools.com/html/html5_draganddrop.asp"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:0) -> {"called":"web.all.channel.StartChannel","iteration":"1/1","type":"loop","parameters":[{"p0":"msedge"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Subscript init (web.all.domains:1) -> {"called":"web.all.channel.SwitchChannel","iteration":"1/1","type":"loop","parameters":[{"p0":"msedge"},{"p1":"opera"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- ActionChannelStart (web.all.channel.SwitchChannel:1) <- web.all.domains:1 <- web.all.exec:0]]>
+    </line>
+    <line>
+      <![CDATA[- Script terminated -> {"name":"web.all.exec","suite":"web","duration":324559,"passed":false,"actions":130}]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-09-08T17:29:02 CEST" name="web" finished-at="2020-09-08T17:34:26 CEST" duration-ms="324623">
+    <groups>
+    </groups>
+    <test started-at="2020-09-08T17:29:02 CEST" name="testMain" finished-at="2020-09-08T17:34:26 CEST" duration-ms="324623">
+      <class name="web.all.exec">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:web.all.exec@39d9314d]" started-at="2020-09-08T17:29:02 CEST" name="beforeSuite" test-instance-name="web.all.exec" finished-at="2020-09-08T17:29:02 CEST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeAtsTest(org.testng.ITestContext)[pri:0, instance:web.all.exec@39d9314d]" started-at="2020-09-08T17:29:02 CEST" name="beforeAtsTest" test-instance-name="web.all.exec" finished-at="2020-09-08T17:29:02 CEST" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2270f58d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[- Starting script (web.all.exec) -> {"suite":"web","xmlReport":true,"visualQuality":1,"parameters":[{"xml.report":"true"},{"ats.log.level":"error"},{"visual.report":"1"}]}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeAtsTest -->
+        <test-method signature="testMain()[pri:0, instance:web.all.exec@39d9314d]" started-at="2020-09-08T17:29:02 CEST" name="testMain" test-instance-name="web.all.exec" finished-at="2020-09-08T17:34:22 CEST" duration-ms="320422" status="FAIL">
+          <reporter-output>
+            <line>
+              <![CDATA[- Subscript init (web.all.exec:0) -> {"called":"web.all.domains","iteration":"1/5","type":"dataFile","url":"C:\\Users\\Agilitest\\Documents\\GitHub\\ats_test_technical\\target\\classes\\assets\\WebParameters.csv","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"},{"p2":"msedge"},{"p3":"https://www.w3schools.com/html/html5_draganddrop.asp"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:0) -> {"called":"web.all.channel.StartChannel","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:1) -> {"called":"web.all.channel.SwitchChannel","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"msedge"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:2) -> {"called":"web.all.check.Occurence","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:3) -> {"called":"web.all.check.Property","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:4) -> {"called":"web.all.check.Value","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:7) -> {"called":"web.all.mouse.DragDrop","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:8) -> {"called":"web.all.mouse.LeftClick","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:9) -> {"called":"web.all.mouse.Over","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:10) -> {"called":"web.all.mouse.RightClick","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:11) -> {"called":"web.all.mouse.Scroll","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:12) -> {"called":"web.all.mouse.Swipe","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:13) -> {"called":"web.all.mouse.WheelClick","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:14) -> {"called":"web.all.navigation.GoToURL","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:15) -> {"called":"web.all.other.Scripting","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:16) -> {"called":"web.all.other.Select","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:17) -> {"called":"web.all.property.GetProperty","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:18) -> {"called":"web.all.text.Enter","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"},{"p1":"http://www.agilitest.com/fichiers/test.html"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:19) -> {"called":"web.all.window.ChangeLocation","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:20) -> {"called":"web.all.window.ChangeSize","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:21) -> {"called":"web.all.window.ChangeState","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:22) -> {"called":"web.all.window.Switch","iteration":"1/1","type":"loop","parameters":[{"p0":"firefox"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.exec:0) -> {"called":"web.all.domains","iteration":"2/5","type":"dataFile","url":"C:\\Users\\Agilitest\\Documents\\GitHub\\ats_test_technical\\target\\classes\\assets\\WebParameters.csv","parameters":[{"p0":"msedge"},{"p1":"http://www.agilitest.com/fichiers/test.html"},{"p2":"opera"},{"p3":"https://www.w3schools.com/html/html5_draganddrop.asp"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:0) -> {"called":"web.all.channel.StartChannel","iteration":"1/1","type":"loop","parameters":[{"p0":"msedge"}]}]]>
+            </line>
+            <line>
+              <![CDATA[- Subscript init (web.all.domains:1) -> {"called":"web.all.channel.SwitchChannel","iteration":"1/1","type":"loop","parameters":[{"p0":"msedge"},{"p1":"opera"}]}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:web.all.exec@39d9314d]" started-at="2020-09-08T17:34:22 CEST" name="cleanup" test-instance-name="web.all.exec" finished-at="2020-09-08T17:34:26 CEST" duration-ms="3983" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[- ActionChannelStart (web.all.channel.SwitchChannel:1) <- web.all.domains:1 <- web.all.exec:0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:web.all.exec@39d9314d]" started-at="2020-09-08T17:34:26 CEST" name="afterClass" test-instance-name="web.all.exec" finished-at="2020-09-08T17:34:26 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[- Script terminated -> {"name":"web.all.exec","suite":"web","duration":324559,"passed":false,"actions":130}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="testFinished()[pri:0, instance:web.all.exec@39d9314d]" started-at="2020-09-08T17:34:26 CEST" name="testFinished" test-instance-name="web.all.exec" finished-at="2020-09-08T17:34:26 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFinished -->
+      </class> <!-- web.all.exec -->
+    </test> <!-- testMain -->
+  </suite> <!-- web -->
+</testng-results>

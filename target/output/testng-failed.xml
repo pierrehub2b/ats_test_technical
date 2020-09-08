@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [web]" guice-stage="DEVELOPMENT" verbose="2">
+  <parameter name="xml.report" value="true"/>
+  <parameter name="visual.report" value="1"/>
+  <parameter name="ats.log.level" value="error"/>
+  <test thread-count="5" name="testMain(failed)" verbose="2">
+    <classes>
+      <class name="web.all.exec">
+        <methods>
+          <include name="testFinished"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="testMain"/>
+          <include name="cleanup"/>
+          <include name="beforeAtsTest"/>
+        </methods>
+      </class> <!-- web.all.exec -->
+    </classes>
+  </test> <!-- testMain(failed) -->
+</suite> <!-- Failed suite [web] -->

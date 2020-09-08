@@ -30,7 +30,7 @@ public class DoubleClick extends ActionTestScript{
 
 	/**
 	* Test Name : <b>web.all.mouse.DoubleClick</b>
-	* Generated at : <b>8 sept. 2020 à 17:17:57</b>
+	* Generated at : <b>8 sept. 2020 à 17:28:54</b>
 	*/
 
 	public DoubleClick(){super();}

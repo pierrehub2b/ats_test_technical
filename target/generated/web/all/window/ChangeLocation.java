@@ -30,7 +30,7 @@ public class ChangeLocation extends ActionTestScript{
 
 	/**
 	* Test Name : <b>web.all.window.ChangeLocation</b>
-	* Generated at : <b>8 sept. 2020 à 17:17:57</b>
+	* Generated at : <b>8 sept. 2020 à 17:28:54</b>
 	*/
 
 	public ChangeLocation(){super();}

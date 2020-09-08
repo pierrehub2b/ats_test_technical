@@ -30,7 +30,7 @@ public class Swipe extends ActionTestScript{
 
 	/**
 	* Test Name : <b>web.all.mouse.Swipe</b>
-	* Generated at : <b>8 sept. 2020 à 17:17:57</b>
+	* Generated at : <b>8 sept. 2020 à 17:28:54</b>
 	*/
 
 	public Swipe(){super();}
