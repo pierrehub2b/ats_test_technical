@@ -8,7 +8,7 @@ created -> 2020-09-07 at 17:10:28
 
 [ats-actions]
 
-subscript -> $var(var_name)web.all.channel.StartChannel [$param(0&co;chrome)]
+subscript -> web.all.channel.StartChannel [$param(0&co;chrome)]
 subscript -> web.all.channel.SwitchChannel [$param(0&co;chrome),$param(2&co;ie)]
 subscript -> web.all.check.Occurence [$param(0&co;chrome),$param(1&co;null)]
 subscript -> web.all.check.Property [$param(0&co;chrome),$param(1&co;null)]

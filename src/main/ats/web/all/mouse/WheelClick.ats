@@ -10,7 +10,6 @@ created -> 2020-09-07 at 17:02:59
 
 channel-start -> mouseWheelClick -> $param(0,chrome)
 goto-url -> https://www.agilitest.com/
-click-wheel -> BODY
-over [bottom = 10] -> BODY
-click-wheel -> BODY
-check-count -> 1 -> H1 [text = Select size 4 :]
+click [nofail] -> A [id = hs-eu-confirmation-button]
+click-wheel -> IMG [alt = Agilitest]
+channel-close -> mouseWheelClick
