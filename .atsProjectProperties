@@ -1,15 +1,12 @@
 <atsProject>
-  <domain>com.caipture</domain>
+  <domain>com.functional</domain>
   <name>technical</name>
   <version>0.0.1</version>
   <description>ATS project for technical tests</description>
-  <useMaven>false</useMaven>
+  <useMaven>true</useMaven>
   <autoUpdateAts>true</autoUpdateAts>
   <groups>
     <group>default</group>
   </groups>
-  <environment>
-    <property>ipAddress</property>
-    <property>port</property>
-  </environment>
+  <environment/>
 </atsProject>
