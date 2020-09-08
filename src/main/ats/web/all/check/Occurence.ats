@@ -9,6 +9,6 @@ created -> 2020-09-07 at 16:43:31
 [ats-actions]
 
 channel-start -> occurenceChannel -> $param(0,chrome)
-goto-url -> $param(1,null)
+goto-url -> $param(1,)
 check-count -> 1 -> IMG [alt = Agilitest]
 channel-close -> occurenceChannel

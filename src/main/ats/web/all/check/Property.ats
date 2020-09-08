@@ -9,6 +9,6 @@ created -> 2020-09-07 at 16:43:21
 [ats-actions]
 
 channel-start -> propertyCheck -> $param(0,chrome)
-goto-url -> $param(1,http://www.agilitest.com/fichiers/test.html)
+goto-url -> $param(1,)
 check-property -> alt = Agilitest -> IMG [alt = Agilitest]
 channel-close -> propertyCheck

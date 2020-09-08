@@ -9,7 +9,7 @@ created -> 2020-09-07 at 16:45:36
 [ats-actions]
 
 channel-start -> mouseRightClick -> $param(0,chrome)
-goto-url -> $param(1,http://www.agilitest.com/fichiers/test.html)
+goto-url -> $param(1,)
 click-right -> BUTTON [text = Right Click Button]
 check-count -> 1 -> SPAN [id = rightclickbutton, text = OK]
 channel-close -> mouseRightClick

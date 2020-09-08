@@ -9,7 +9,7 @@ created -> 2020-09-07 at 16:45:13
 [ats-actions]
 
 channel-start -> newChannel -> $param(0,chrome)
-goto-url -> $param(1,http://www.agilitest.com/fichiers/test.html)
+goto-url -> $param(1,)
 click -> BUTTON [text = Click Button]
 check-count -> 1 -> SPAN [id = clickbutton, text = OK]
 channel-close -> newChannel

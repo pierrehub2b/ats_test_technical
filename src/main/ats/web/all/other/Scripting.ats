@@ -9,7 +9,7 @@ created -> 2020-09-07 at 17:08:38
 [ats-actions]
 
 channel-start -> otherScipting -> $param(0,chrome)
-goto-url -> $param(1,http://www.agilitest.com/fichiers/test.html)
+goto-url -> $param(1,)
 scroll -> 0 -> BODY
 scripting -> value=100 -> INPUT [name = range]
 check-property -> value = 100 -> INPUT [name = range]
