@@ -8,5 +8,5 @@ created -> 2020-09-07 at 16:40:35
 
 [ats-actions]
 
-channel-start -> startChannel -> $param(0,chrome)
+channel-start -> startChannel -> $param(0,opera)
 channel-close -> startChannel
