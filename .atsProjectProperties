@@ -5,6 +5,7 @@
   <description>ATS project for technical tests</description>
   <useMaven>false</useMaven>
   <autoUpdateAts>false</autoUpdateAts>
+  <useProjectDomain>false</useProjectDomain>
   <groups>
     <group>default</group>
   </groups>
