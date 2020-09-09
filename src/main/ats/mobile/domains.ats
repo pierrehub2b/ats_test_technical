@@ -7,3 +7,6 @@ created -> 2020-09-09 at 09:46:30
 
 
 [ats-actions]
+
+subscript -> mobile.channel.Start
+subscript -> mobile.channel.Switch
