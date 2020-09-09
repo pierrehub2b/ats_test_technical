@@ -7,3 +7,8 @@ created -> 2020-09-09 at 17:06:29
 
 
 [ats-actions]
+
+subscript -> mobile.common.channel.Start [$param(1&co;ip),$param(2&co;app)]
+subscript -> mobile.common.channel.Switch [$param(1&co;ip),$param(2&co;app),$param(3&co;app)]
+subscript -> mobile.common.property.system.GetValue [$param(1&co;ip),$param(2&co;app)]
+subscript -> mobile.common.property.system.SetValue [$param(1&co;ip),$param(2&co;app)]

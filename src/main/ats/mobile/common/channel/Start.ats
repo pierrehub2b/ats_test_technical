@@ -9,5 +9,5 @@ created -> 2020-09-07 at 15:32:51
 [ats-actions]
 
 comment -> script -> <i>Ouverture et fermeture de canal</i>
-channel-start -> Chrome -> mobile://$param(0,192.168.1.12:8081)/$param(1,com.android.calculator2)
+channel-start -> Chrome -> mobile://$param(0,ip)/$param(1,app)
 channel-close -> Chrome
