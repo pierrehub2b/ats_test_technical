@@ -8,4 +8,4 @@ created -> 2020-09-07 at 17:09:07
 
 [ats-actions]
 
-subscript -> web.all.domains -> assets:///WebParametersOpera.csv
+subscript -> web.domains -> assets:///web/WebParametersIE.csv
