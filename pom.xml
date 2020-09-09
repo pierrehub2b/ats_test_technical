@@ -64,6 +64,7 @@
           </property>
           <suiteXmlFiles>
             <suiteXmlFile>src/exec/web.xml</suiteXmlFile>
+            <suiteXmlFile>src/exec/mobile.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>

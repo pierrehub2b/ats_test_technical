@@ -1,0 +1,11 @@
+[ats-header]
+
+author -> LAPTOP-LT8QHS42\Agilitest
+created -> 2020-09-09 at 15:19:12
+
+[ats-variables]
+
+
+[ats-actions]
+
+subscript -> mobile.domain -> assets:///mobile/AndroidMacOsUSB.csv
