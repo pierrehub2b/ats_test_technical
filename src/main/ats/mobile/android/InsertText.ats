@@ -7,3 +7,8 @@ created -> 2020-09-09 at 15:34:45
 
 
 [ats-actions]
+
+channel-start -> newChannel -> mobile://192.168.1.13:8251/com.android.chrome
+keyboard ->  -> EditText [viewId = REsRA]
+check-property -> id = 
+channel-close -> newChannel

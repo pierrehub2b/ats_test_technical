@@ -10,4 +10,5 @@ created -> 2020-09-07 at 14:40:45
 
 comment -> script -> <i></i>
 channel-start -> newChannel -> chrome
+property -> text => propertyVar
 channel-close -> newChannel
