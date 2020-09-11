@@ -1,0 +1,20 @@
+[ats-header]
+
+author -> LAPTOP-LT8QHS42\Agilitest
+created -> 2020-09-11 at 10:23:32
+
+[ats-variables]
+
+
+[ats-actions]
+
+subscript -> mobile.common.channel.Start [$param(1&co;ip),$param(2&co;app)]
+subscript -> mobile.common.channel.Switch [$param(1&co;ip),$param(2&co;app),$param(3&co;app)]
+subscript -> mobile.common.property.system.GetValue [$param(1&co;ip),$param(2&co;app)]
+subscript -> mobile.common.property.system.SetValue [$param(1&co;ip),$param(2&co;app)]
+subscript -> mobile.ios.ImageRecognition [$param(1&co;ip),$param(2&co;app)]
+subscript -> mobile.ios.InsertText [$param(1&co;ip),$param(2&co;app)]
+subscript -> mobile.ios.gestures.DoubleTap [$param(1&co;ip),$param(2&co;app)]
+subscript -> mobile.ios.gestures.Scroll [$param(1&co;ip),$param(2&co;app)]
+subscript -> mobile.ios.gestures.Tap [$param(1&co;ip),$param(2&co;app)]
+subscript -> mobile.other.Scripting [$param(1&co;ip),$param(2&co;app)]

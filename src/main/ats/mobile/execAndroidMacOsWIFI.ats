@@ -8,4 +8,4 @@ created -> 2020-09-09 at 15:13:44
 
 [ats-actions]
 
-subscript -> mobile.domain -> assets:///mobile/AndroidMacOsWIFI.csv
+subscript -> mobile.androidDomain -> assets:///mobile/AndroidMacOsWIFI.csv
