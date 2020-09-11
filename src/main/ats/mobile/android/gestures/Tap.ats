@@ -7,3 +7,9 @@ created -> 2020-09-09 at 15:37:18
 
 
 [ats-actions]
+
+comment -> script -> <i>comment ...</i>
+channel-start -> newChannel -> mobile://192.168.1.13:8251/com.oneplus.calculator
+click -> Button [viewId = digit_9]
+check-property -> text = 9 -> TextView [viewId = formula]
+channel-close -> newChannel
