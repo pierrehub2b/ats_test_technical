@@ -1,10 +1,23 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="mobile" verbose="10">
+<suite name="mobile" verbose="0">
   <parameter name="xml.report" value="true"/>
-  <parameter name="ats.log.level" value="all"/>
+  <parameter name="ats.log.level" value="null"/>
   <test name="testMain" preserve-order="true">
+    <packages>
+      <package name=".*">
+        <exclude name="api.*"/>
+        <exclude name="desktop.*"/>
+        <exclude name="manual.*"/>
+        <exclude name="subscripts.*"/>
+        <exclude name="web.*"/>
+      </package>
+    </packages>
     <classes>
-      <class name="mobile.channel.Start"/>
+      <class name="mobile.execAndroidMacOsUSB"/>
+      <class name="mobile.execAndroidMacOsWIFI"/>
+      <class name="mobile.execAndroidWindowsUSB"/>
+      <class name="mobile.execAndroidWindowsWIFI"/>
+      <class name="mobile.execIOsMacOSWIFI"/>
     </classes>
   </test>
 </suite>
