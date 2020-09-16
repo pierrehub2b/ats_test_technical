@@ -1,0 +1,13 @@
+[ats-header]
+
+author -> AGILITEST-DUPER\Emmanuel DUPERRAY
+created -> 2020-09-16 at 11:05:01
+
+[ats-variables]
+
+
+[ats-actions]
+
+comment -> script -> -- <b>Compile</b> Agilitest Version<br>-- <b>Compile</b> Ats version <b>X.Y.Z</b><br>-- <b>Check</b> C:\Users\emman\.actiontestscript\libs\ats-automated-testing-<b>X.Y.Z</b>.jar
+comment -> script -> Project Properties :<br>-- <b>Décocher</b> "Utiliser Maven avec Agilitest"<br>-- Save
+comment -> script -> Gestion des executions :<br>-- <b>Sélectionner l'excution</b> = ManualDailyCommonAction<br>-- Ouvrir cmd<br>-- Copy / Paste / exec ligne 1 de commande :<br>cd C:\Users\emman\Documents\GitHub\ats_test_technical<br>-- Copy / Paste / exec ligne 2 de commande :<br>java -cp C:\Users\emman\.actiontestscript\libs/*;libs/*;target/classes org.testng.TestNG src/exec/ManualDailyCommonActions.xml
