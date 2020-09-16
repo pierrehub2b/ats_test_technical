@@ -3,11 +3,13 @@
   <name>technical</name>
   <version>0.0.1</version>
   <description>ATS project for technical tests</description>
-  <useMaven>false</useMaven>
+  <useMaven>true</useMaven>
   <autoUpdateAts>true</autoUpdateAts>
   <useProjectDomain>false</useProjectDomain>
   <groups>
     <group>default</group>
   </groups>
-  <environment/>
+  <environment>
+    <property>android_ip_port</property>
+  </environment>
 </atsProject>
