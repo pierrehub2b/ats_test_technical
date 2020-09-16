@@ -67,7 +67,6 @@
           </property>
           <suiteXmlFiles>
             <suiteXmlFile>src/exec/web.xml</suiteXmlFile>
-            <suiteXmlFile>src/exec/mobile.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
@@ -94,7 +93,11 @@
     <dependency>
       <groupId>com.actiontestscript</groupId>
       <artifactId>ats-automated-testing</artifactId>
+<<<<<<< Updated upstream
       <version>1.8.0</version>
+=======
+      <version>1.8.1</version>
+>>>>>>> Stashed changes
     </dependency>
   </dependencies>
 </project>

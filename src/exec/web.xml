@@ -6,10 +6,8 @@
   <test name="testMain" preserve-order="true">
     <classes>
       <class name="web.execChrome"/>
-      <class name="web.execFirefox"/>
       <class name="web.execIE"/>
       <class name="web.execMsEdge"/>
-      <class name="web.execOpera"/>
     </classes>
   </test>
 </suite>

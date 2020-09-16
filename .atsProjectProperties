@@ -3,8 +3,8 @@
   <name>technical</name>
   <version>0.0.1</version>
   <description>ATS project for technical tests</description>
-  <useMaven>false</useMaven>
-  <autoUpdateAts>false</autoUpdateAts>
+  <useMaven>true</useMaven>
+  <autoUpdateAts>true</autoUpdateAts>
   <useProjectDomain>false</useProjectDomain>
   <groups>
     <group>default</group>
