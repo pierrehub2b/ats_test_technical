@@ -8,6 +8,7 @@ created -> 2020-09-16 at 11:05:01
 
 [ats-actions]
 
-comment -> script -> -- <b>Compile</b> Agilitest Version<br>-- <b>Compile</b> Ats version <b>X.Y.Z</b><br>-- <b>Check</b> C:\Users\emman\.actiontestscript\libs\ats-automated-testing-<b>X.Y.Z</b>.jar
-comment -> script -> Project Properties :<br>-- <b>Décocher</b> "Utiliser Maven avec Agilitest"<br>-- Save
-comment -> script -> Gestion des executions :<br>-- <b>Sélectionner l'excution</b> = ManualDailyCommonAction<br>-- Ouvrir cmd<br>-- Copy / Paste / exec ligne 1 de commande :<br>cd C:\Users\emman\Documents\GitHub\ats_test_technical<br>-- Copy / Paste / exec ligne 2 de commande :<br>java -cp C:\Users\emman\.actiontestscript\libs/*;libs/*;target/classes org.testng.TestNG src/exec/ManualDailyCommonActions.xml
+comment -> script -> -- <b>Compile</b> Agilitest Version<br>-- <b>Compile</b> Ats version <b>X.Y.Z</b><br>-- <b>Check & Past</b> C:\Users\emman\.actiontestscript\libs\ats-automated-testing-<b>X.Y.Z</b>.jar
+comment -> script -> <u>Project Properties :</u><br>-- <b>Décocher</b> "Utiliser Maven avec Agilitest"<br>-- Save
+comment -> script -> <u>Gestion des executions </u><br>-- <b>Sélectionner l'execution</b> = ManualDailyCommonAction<br>-- Ouvrir cmd<br>-- Copy / Paste / exec <b>ligne 1 de répertoire</b> :<br>cd C:\Users\emman\Documents\GitHub\ats_test_technical<br><br>-- Copy / Paste / exec <b>ligne 2 de commande java </b> :<br>java -cp C:\Users\emman\.actiontestscript\libs/*;libs/*;target/classes org.testng.TestNG src/exec/ManualDailyCommonActions.xml<br>
+comment -> script -> <b><u>Vérification</u></b> : ouverture d'un canal chrome puis fermeture<br><br>===============================================<br>ManualDailyCommonActions<br>Total tests run: 1, <b>Passes: 1</b>, Failures: 0, Skips: 0<br>===============================================
