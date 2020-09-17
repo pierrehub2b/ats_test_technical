@@ -1,0 +1,13 @@
+[ats-header]
+
+author -> LAPTOP-LT8QHS42\Agilitest
+created -> 2020-09-16 at 15:24:42
+
+[ats-variables]
+
+
+[ats-actions]
+
+channel-start -> occurenceChannel -> $param(0,app)
+check-count -> 1 -> ToolBar [ClassName = ToolbarWindow32]
+channel-close -> occurenceChannel

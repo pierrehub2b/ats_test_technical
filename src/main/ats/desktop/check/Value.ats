@@ -1,0 +1,14 @@
+[ats-header]
+
+author -> LAPTOP-LT8QHS42\Agilitest
+created -> 2020-09-16 at 15:24:51
+
+[ats-variables]
+
+
+[ats-actions]
+
+channel-start -> checkValue -> $param(0,app)
+property -> IsEnabled => propertyVar -> Pane [ClassName = ReBarWindow32]
+check-value -> $var(propertyVar) = True
+channel-close -> checkValue

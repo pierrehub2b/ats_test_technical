@@ -1,0 +1,31 @@
+[ats-header]
+
+author -> LAPTOP-LT8QHS42\Agilitest
+created -> 2020-09-16 at 15:29:18
+
+[ats-variables]
+
+
+[ats-actions]
+
+subscript -> desktop.channel.Start -> assets:///desktop/DesktopParameters.csv
+subscript -> desktop.channel.Switch -> assets:///desktop/DesktopParameters.csv
+subscript -> desktop.check.Occurence -> assets:///desktop/DesktopParameters.csv
+subscript -> desktop.check.Property -> assets:///desktop/DesktopParameters.csv
+subscript -> $var(propertyVar)desktop.check.Value -> assets:///desktop/DesktopParameters.csv
+subscript -> desktop.images.Recognition -> assets:///desktop/DesktopParameters.csv
+subscript -> $var(propertyVar)desktop.mouse.DoubleClick -> assets:///desktop/DesktopParameters.csv
+subscript -> desktop.mouse.DragDrop -> assets:///desktop/DesktopParameters.csv
+subscript -> desktop.mouse.LeftClick -> assets:///desktop/DesktopParameters.csv
+subscript -> desktop.mouse.Over -> assets:///desktop/DesktopParameters.csv
+subscript -> desktop.mouse.RightClick -> assets:///desktop/DesktopParameters.csv
+subscript -> desktop.mouse.Scroll -> assets:///desktop/DesktopParameters.csv
+subscript -> desktop.mouse.Swipe -> assets:///desktop/DesktopParameters.csv
+//subscript -> desktop.mouse.WheelClick
+//subscript -> desktop.other.Select
+//subscript -> desktop.property.GetProperty
+//subscript -> desktop.text.Enter
+//subscript -> desktop.window.ChangeLocation
+//subscript -> desktop.window.ChangeSize
+//subscript -> desktop.window.ChangeState
+//subscript -> desktop.window.Switch

@@ -1,0 +1,13 @@
+[ats-header]
+
+author -> LAPTOP-LT8QHS42\Agilitest
+created -> 2020-09-16 at 15:25:31
+
+[ats-variables]
+
+
+[ats-actions]
+
+channel-start -> leftClick -> $param(0,app)
+click -> MenuItem [AccessKey = Alt+d]
+channel-close -> leftClick

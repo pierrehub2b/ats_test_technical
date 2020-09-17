@@ -1,0 +1,14 @@
+[ats-header]
+
+author -> LAPTOP-LT8QHS42\Agilitest
+created -> 2020-09-16 at 15:26:32
+
+[ats-variables]
+
+
+[ats-actions]
+
+channel-start -> scrollChannel -> $param(1,app)
+scroll -> 200 -> TabItem [Name = Accueil]
+check-count -> 1 -> Button [AccessKey = Alt&co; A&co; A V]
+channel-close -> scrollChannel

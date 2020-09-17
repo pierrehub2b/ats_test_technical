@@ -1,0 +1,14 @@
+[ats-header]
+
+author -> LAPTOP-LT8QHS42\Agilitest
+created -> 2020-09-16 at 15:25:06
+
+[ats-variables]
+
+
+[ats-actions]
+
+channel-start -> recognition -> $param(0,app)
+click -> @IMAGE [error = 0.5%, source = desktop/images/Recognition/2020816165033.png]
+check-count -> 1 -> Window [ClassName = #32770]
+channel-close -> recognition

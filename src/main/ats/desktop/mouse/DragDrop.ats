@@ -1,0 +1,15 @@
+[ats-header]
+
+author -> LAPTOP-LT8QHS42\Agilitest
+created -> 2020-09-16 at 15:25:54
+
+[ats-variables]
+
+
+[ats-actions]
+
+channel-start -> dragDrop -> $param(1,app)
+drag [left = 10, top = 10] -> Pane [NativeWindowHandle = 1248964]
+over -> Pane [NativeWindowHandle = 1248964]
+drop -> Pane [NativeWindowHandle = 1248964]
+channel-close -> dragDrop

@@ -1,0 +1,12 @@
+[ats-header]
+
+author -> LAPTOP-LT8QHS42\Agilitest
+created -> 2020-09-16 at 15:24:17
+
+[ats-variables]
+
+
+[ats-actions]
+
+channel-start -> startChannel -> $param(0,app)
+channel-close -> startChannel

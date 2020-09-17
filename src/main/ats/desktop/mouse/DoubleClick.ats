@@ -1,0 +1,16 @@
+[ats-header]
+
+author -> LAPTOP-LT8QHS42\Agilitest
+created -> 2020-09-16 at 15:25:39
+
+[ats-variables]
+
+
+[ats-actions]
+
+channel-start -> doubleClick -> $param(1,app)
+click -> TabItem [Name = Affichage]
+click-double -> Button [AccessKey = Alt&co; A&co; A R]
+property -> Name => propertyVar -> Text [NativeWindowHandle = 69544]
+check-value -> $var(propertyVar) = 25 %
+channel-close -> doubleClick

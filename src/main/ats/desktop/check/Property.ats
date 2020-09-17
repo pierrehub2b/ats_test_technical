@@ -1,0 +1,13 @@
+[ats-header]
+
+author -> LAPTOP-LT8QHS42\Agilitest
+created -> 2020-09-16 at 15:24:47
+
+[ats-variables]
+
+
+[ats-actions]
+
+channel-start -> checkProperty -> $param(0,app)
+check-property -> IsPassword = False -> Pane [ClassName = ReBarWindow32]
+channel-close -> checkProperty

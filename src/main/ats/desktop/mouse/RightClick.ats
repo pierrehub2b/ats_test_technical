@@ -1,0 +1,13 @@
+[ats-header]
+
+author -> LAPTOP-LT8QHS42\Agilitest
+created -> 2020-09-16 at 15:25:47
+
+[ats-variables]
+
+
+[ats-actions]
+
+channel-start -> rightClick -> $param(0,app)
+click-right -> Pane [NativeWindowHandle = 12977196]
+channel-close -> rightClick

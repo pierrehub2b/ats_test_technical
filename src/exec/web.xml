@@ -7,7 +7,6 @@
     <classes>
       <class name="web.execChrome"/>
       <class name="web.execIE"/>
-      <class name="web.execMsEdge"/>
     </classes>
   </test>
 </suite>
