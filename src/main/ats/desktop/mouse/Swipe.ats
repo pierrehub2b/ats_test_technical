@@ -9,5 +9,5 @@ created -> 2020-09-16 at 15:26:39
 [ats-actions]
 
 channel-start -> swipe -> $param(1,app)
-swipe [left = 10, top = 10] -> right = 50 -> Pane [NativeWindowHandle = 32771726]
+swipe [left = 10, top = 10] -> right = 50 -> Pane [ClassName = Afx:00007FF6EB540000:8]
 channel-close -> swipe

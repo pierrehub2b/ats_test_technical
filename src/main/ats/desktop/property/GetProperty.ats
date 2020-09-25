@@ -7,3 +7,8 @@ created -> 2020-09-16 at 15:28:09
 
 
 [ats-actions]
+
+channel-start -> getPropertyChannel -> $param(0,app)
+property -> Name => propertyVar -> MenuItem [AccessKey = Alt+d]
+check-value -> $var(propertyVar) = Documents
+channel-close -> getPropertyChannel

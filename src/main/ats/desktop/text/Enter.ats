@@ -7,3 +7,12 @@ created -> 2020-09-16 at 15:28:22
 
 
 [ats-actions]
+
+channel-start -> enterText -> $param(0,app)
+keyboard -> test -> Pane [ClassName = Scintilla]
+keyboard -> $key(CONTROL--A)$key(CONTROL--C) -> Pane [ClassName = Scintilla]
+click -> Pane [ClassName = Scintilla]
+keyboard -> $key(CONTROL--V) -> Pane [ClassName = Scintilla]
+property -> Name => propertyVar -> Pane [ClassName = Scintilla]
+channel-close -> enterText
+check-value -> $var(propertyVar) = testtest

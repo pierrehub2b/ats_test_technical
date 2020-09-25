@@ -7,3 +7,7 @@ created -> 2020-09-16 at 15:28:39
 
 
 [ats-actions]
+
+channel-start -> changeLocation -> $param(0,app)
+window-resize -> x = 500, y = 500
+channel-close -> changeLocation

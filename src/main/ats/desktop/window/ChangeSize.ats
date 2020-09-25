@@ -7,3 +7,7 @@ created -> 2020-09-16 at 15:28:53
 
 
 [ats-actions]
+
+channel-start -> changeSize -> $param(0,app)
+window-resize -> width = 20, height = 20
+channel-close -> changeSize

@@ -7,3 +7,10 @@ created -> 2020-09-16 at 15:28:45
 
 
 [ats-actions]
+
+channel-start -> changeState -> $param(0,app)
+window-state -> reduce
+window-state -> restore
+window-state -> maximize
+window-state -> close
+channel-close -> changeState

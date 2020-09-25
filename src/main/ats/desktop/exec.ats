@@ -14,7 +14,7 @@ subscript -> desktop.check.Occurence -> assets:///desktop/DesktopParameters.csv
 subscript -> desktop.check.Property -> assets:///desktop/DesktopParameters.csv
 subscript -> $var(propertyVar)desktop.check.Value -> assets:///desktop/DesktopParameters.csv
 subscript -> desktop.images.Recognition -> assets:///desktop/DesktopParameters.csv
-subscript -> $var(propertyVar)desktop.mouse.DoubleClick -> assets:///desktop/DesktopParameters.csv
+//subscript -> $var(propertyVar)desktop.mouse.DoubleClick -> assets:///desktop/DesktopParameters.csv
 subscript -> desktop.mouse.DragDrop -> assets:///desktop/DesktopParameters.csv
 subscript -> desktop.mouse.LeftClick -> assets:///desktop/DesktopParameters.csv
 subscript -> desktop.mouse.Over -> assets:///desktop/DesktopParameters.csv
@@ -23,9 +23,9 @@ subscript -> desktop.mouse.Scroll -> assets:///desktop/DesktopParameters.csv
 subscript -> desktop.mouse.Swipe -> assets:///desktop/DesktopParameters.csv
 //subscript -> desktop.mouse.WheelClick
 //subscript -> desktop.other.Select
-//subscript -> desktop.property.GetProperty
-//subscript -> desktop.text.Enter
-//subscript -> desktop.window.ChangeLocation
-//subscript -> desktop.window.ChangeSize
-//subscript -> desktop.window.ChangeState
+subscript -> desktop.property.GetProperty -> assets:///desktop/DesktopParameters.csv
+subscript -> desktop.text.Enter -> assets:///desktop/DesktopParameters.csv
+subscript -> desktop.window.ChangeLocation -> assets:///desktop/DesktopParameters.csv
+subscript -> desktop.window.ChangeSize -> assets:///desktop/DesktopParameters.csv
+subscript -> desktop.window.ChangeState -> assets:///desktop/DesktopParameters.csv
 //subscript -> desktop.window.Switch
