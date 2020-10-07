@@ -36,8 +36,7 @@
         <fo:block text-align="center" vertical-align="bottom">
           Page <fo:page-number/>
         </fo:block>
-      </fo:static-content>
-      <fo:flow flow-name="xsl-region-body">
+      </fo:static-content>      <fo:flow flow-name="xsl-region-body">
         <fo:block font-size="16pt" font-family="Helvetica" margin="0cm 0cm 1cm 1cm" border-style="solid" fox:border-radius="16pt" border-width="10" border-color="lightblue" padding="16pt" text-align="center">
             <fo:table table-layout="fixed" width="100%">
               <fo:table-column column-width="6cm"/>
@@ -46,12 +45,12 @@
                 <fo:table-row>
                   <fo:table-cell>
                     <fo:block text-align="left" font-weight="bold">
-                      <fo:external-graphic src="actiontestscript.png"/>
+                      <fo:external-graphic src="agilitest.png"/>
                     </fo:block>
                   </fo:table-cell>
                   <fo:table-cell padding-before="30pt" padding-after="30pt" >
                     <fo:block vertical-align="middle" text-align="left" font-weight="bold">
-                      ActionTestScript - Result
+                      ActionTestScript - Test Result
                     </fo:block>
                   </fo:table-cell>
                 </fo:table-row>
@@ -66,12 +65,14 @@
                 <fo:table-row>
                   <fo:table-cell padding-before="5pt">
                     <fo:block text-align="left" font-weight="bold">
-                      <xsl:value-of select="@id"/>
+		      Id : 
+                      <xsl:value-of select="@testId"/>
                     </fo:block>
                   </fo:table-cell>
                   <fo:table-cell padding-before="5pt">
                     <fo:block text-align="left" font-weight="bold">
-                      <xsl:value-of select="@name"/>
+		      Name : 
+                      <xsl:value-of select="@testName"/>
                     </fo:block>
                   </fo:table-cell>
                 </fo:table-row>
@@ -128,18 +129,6 @@
                   <fo:table-cell>
                     <fo:block text-align="left">
                       <xsl:value-of select="executed"/>
-                    </fo:block>
-                  </fo:table-cell>
-                </fo:table-row>
-                <fo:table-row>
-                  <fo:table-cell>
-                    <fo:block text-align="left" font-weight="bold">
-                      Duration :
-                    </fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                    <fo:block text-align="left">
-                      <xsl:value-of select="duration"/>
                     </fo:block>
                   </fo:table-cell>
                 </fo:table-row>
@@ -310,9 +299,9 @@
             Criterias :
             <xsl:value-of select="element/criterias"/>            
           </fo:block>
-		  <fo:block>
+          <fo:block>
             Data :
-            <xsl:value-of select="data"/>            
+            <xsl:value-of select="data"/>           
           </fo:block>
         </fo:block-container>
       </fo:flow>

@@ -9,7 +9,7 @@ created -> 2020-09-16 at 15:25:54
 [ats-actions]
 
 channel-start -> dragDrop -> $param(1,app)
-drag [left = 10, top = 10] -> Pane [NativeWindowHandle = 2491838]
-over -> Pane [NativeWindowHandle = 2491838]
-drop -> Pane [NativeWindowHandle = 2491838]
+drag [left = 10, top = 10] -> Pane [ClassName = Afx:00007FF78AA50000:8]
+over -> Pane [ClassName = Afx:00007FF78AA50000:8]
+drop -> Pane [ClassName = Afx:00007FF78AA50000:8]
 channel-close -> dragDrop
