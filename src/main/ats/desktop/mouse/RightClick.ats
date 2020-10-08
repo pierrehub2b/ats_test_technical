@@ -9,5 +9,5 @@ created -> 2020-09-16 at 15:25:47
 [ats-actions]
 
 channel-start -> rightClick -> $param(0,app)
-click-right -> Pane [NativeWindowHandle = 1902288]
+click-right -> Pane [ClassName = Scintilla]
 channel-close -> rightClick

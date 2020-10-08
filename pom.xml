@@ -72,7 +72,6 @@
           </property>
           <suiteXmlFiles>
             <suiteXmlFile>src/exec/web.xml</suiteXmlFile>
-            <suiteXmlFile>src/exec/desktop.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
