@@ -6,6 +6,7 @@
   <useMaven>false</useMaven>
   <autoUpdateAts>true</autoUpdateAts>
   <useProjectDomain>false</useProjectDomain>
+  <uuid>ECDBBCAB-9DA9-1DA6-5FF5-9FC2B898F3D6</uuid>
   <groups>
     <group>default</group>
   </groups>
