@@ -8,7 +8,7 @@ created -> 2020-09-07 at 17:03:16
 
 [ats-actions]
 
-channel-start -> mouseDoubleClick -> $param(0,chrome)
+channel-start -> mouseDoubleClick -> ie
 goto-url -> $param(1,)
 click-double -> BUTTON [text = Double Click Button]
 check-count -> 1 -> SPAN [id = doubleclickbutton, text = OK]
