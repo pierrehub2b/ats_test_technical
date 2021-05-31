@@ -1,0 +1,14 @@
+[ats-header]
+
+author -> LAPTOP-DLT8L0LG\Agilitest
+created -> 2021-05-27 at 10:32:53
+
+[ats-variables]
+
+
+[ats-actions]
+
+channel-start -> newChannel -> $param(0,chrome)
+goto-url -> https://www.w3schools.com/html/html_tables.asp
+subscript -> web.subscripts.subscriptElement -> TABLE [id = customers]
+channel-close -> newChannel

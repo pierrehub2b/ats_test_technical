@@ -1,0 +1,12 @@
+[ats-header]
+
+author -> LAPTOP-DLT8L0LG\Agilitest
+created -> 2021-05-27 at 17:17:06
+
+[ats-variables]
+
+
+[ats-actions]
+
+check-count -> 1 -> TABLE [id = customers]
+scripting -> innerText => scriptReturnVar -> TABLE [id = customers]
