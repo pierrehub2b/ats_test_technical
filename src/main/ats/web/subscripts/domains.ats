@@ -1,0 +1,36 @@
+[ats-header]
+
+author -> LAPTOP-LT8QHS42\Agilitest
+created -> 2020-09-07 at 17:10:28
+
+[ats-variables]
+
+
+[ats-actions]
+
+subscript -> web.channel.StartChannel [$param(0)]
+subscript -> web.channel.SwitchChannel [$param(0&co;chrome),$param(2&co;ie)]
+subscript -> web.check.Occurence [$param(0&co;chrome),$param(1&co;null)]
+subscript -> web.check.Property [$param(0&co;chrome),$param(1&co;null)]
+subscript -> web.check.Value [$param(0&co;chrome),$param(1&co;null)]
+//subscript -> web.images.Recognition [$param(0&co;chrome),$param(1&co;null)]
+subscript -> web.mouse.DoubleClick [$param(0&co;chrome),$param(1&co;null)]
+subscript -> web.mouse.DragDrop [$param(0&co;chrome)]
+subscript -> web.mouse.LeftClick [$param(0&co;chrome),$param(1&co;null)]
+subscript -> web.mouse.Over [$param(0&co;chrome),$param(1&co;null)]
+subscript -> web.mouse.RightClick [$param(0&co;chrome),$param(1&co;null)]
+subscript -> web.mouse.Scroll [$param(0&co;chrome),$param(1&co;null)]
+subscript -> web.mouse.Swipe [$param(0&co;chrome)]
+subscript -> web.mouse.WheelClick [$param(0&co;chrome)]
+subscript -> web.navigation.GoToURL [$param(0&co;chrome),$param(1&co;null)]
+subscript -> web.other.Scripting [$param(0&co;chrome),$param(1&co;null)]
+subscript -> web.other.Select [$param(0&co;chrome),$param(1&co;null)]
+subscript -> web.property.GetProperty [$param(0&co;chrome),$param(1&co;null)]
+subscript -> web.text.Enter [$param(0&co;chrome),$param(1&co;null)]
+subscript -> web.text.EnterSpecialKeys [$param(0&co;chrome)]
+subscript -> web.window.ChangeLocation [$param(0&co;chrome)]
+subscript -> web.window.ChangeSize [$param(0&co;chrome)]
+subscript -> web.window.ChangeState [$param(0&co;chrome)]
+subscript -> web.window.Switch [$param(0&co;chrome)]
+subscript -> web.select.select [$param(0&co;chrome),$param(1&co;null)]
+subscript -> web.subscripts.parametersElements

@@ -1,0 +1,11 @@
+[ats-header]
+
+author -> LAPTOP-LT8QHS42\Agilitest
+created -> 2020-09-07 at 17:09:07
+
+[ats-variables]
+
+
+[ats-actions]
+
+subscript -> web.subscripts.domains -> assets:///web/WebParametersMsEdge.csv
