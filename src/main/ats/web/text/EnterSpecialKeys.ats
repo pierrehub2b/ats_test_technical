@@ -10,7 +10,7 @@ created -> 2020-09-25 at 14:04:02
 
 channel-start -> specialKeys -> $param(0,firefox)
 goto-url -> www.google.fr
-click [nofail] -> SPAN [text =~ (?i)J'accepte] -> SPAN [text =~ (?i)J'accepte] -> DIV [id = introAgreeButton] -> IFRAME [src =~ (?i)https://consent.google.com.*]
+click [nofail] -> DIV [text = J'accepte]
 keyboard -> saisie_clavier -> INPUT [title = Rechercher]
 keyboard -> $key(CONTROL-A)$key(CONTROL-X) -> INPUT [title = Rechercher]
 keyboard -> paste = $key(CONTROL-V) -> INPUT [title = Rechercher]
@@ -21,5 +21,5 @@ keyboard -> $key(CONTROL-A)$key(BACK_SPACE) -> INPUT [title = Rechercher]
 keyboard -> saisie_après_BACK_SPACE -> INPUT [title = Rechercher]
 check-property -> value = saisie_après_BACK_SPACE -> INPUT [title = Rechercher]
 keyboard -> agilitest$key(ENTER) -> INPUT [title = Rechercher]
-check-count -> 1 -> A [href = https://www.agilitest.com/]
+check-count -> 2+ -> A [href = https://www.agilitest.com/]
 channel-close -> specialKeys
